@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+
+#div1 {
+    background-color: rgb(52, 3, 80);
+    border: 1px solid  rgb(52, 3, 80);
+   width: 1240px;
+   height: 575px;
+}
+#div2{
+    border: 1px solid  rgb(52, 3, 80);
+    width: 800px;
+    height: 450px;
+    background-color:  rgb(103, 23, 150);
+    margin-left: 230px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float:right;
+    margin-right: 30px;
+}
+li{
+    display: block;
+    padding: 10px 10px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(206, 202, 202);
+}
+#one{
+    color: white;
+}
+li a:hover{
+    color: white;
+}
+img{
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+h1{
+    color: rgb(221, 177, 238);
+    position: absolute;
+    left: 390px;
+    top: 100px;
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+p{
+    color: rgb(221, 177, 238);
+    position: absolute;
+    top:150px ;
+    left: 390px;
+    
+}
+input{
+    border: 1px solid rgb(206, 202, 202);
+    height: 25px;
+    border-radius: 13px;
+    position: absolute;
+    left: 410px;
+    top: 260px;
+    background-color: rgb(103, 23, 150);
+    color: rgb(206, 202, 202);
+    width: 80px;
+    cursor: pointer;
+}
